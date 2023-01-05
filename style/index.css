@@ -318,10 +318,16 @@ img {
 .entrada {
     text-align: center;
 }
-
 .imagen__entrada {
-    width: 70%;
+    width: 90%;
 }
+@media(min-width:768px ){
+    .imagen__entrada {
+        width: 70%;
+    }
+    
+}
+
 
 @media(min-width: 768px) {
     .entrada__parrafos {
