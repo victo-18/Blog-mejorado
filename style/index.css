@@ -82,8 +82,15 @@ img {
 }
 
 /** HEADER**/
-.header {
+.webp .header {
+    background-image: url(/src/img/banner.webp);
+}
+
+.no-webp .header {
     background-image: url(/src/img/banner.jpg);
+}
+
+.header {
     height: 60rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,7 +171,8 @@ img {
     color: var(--color-secuandario);
 
 }
-.contenedor__principal{
+
+.contenedor__principal {
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -318,14 +326,16 @@ img {
 .entrada {
     text-align: center;
 }
+
 .imagen__entrada {
     width: 90%;
 }
-@media(min-width:768px ){
+
+@media(min-width:768px) {
     .imagen__entrada {
         width: 70%;
     }
-    
+
 }
 
 
@@ -372,7 +382,7 @@ img {
     background-color: var(--color-secuandario);
     width: 95%;
     padding: 5rem;
-    
+
 }
 
 @media(min-width: 768px) {
