@@ -1,153 +1,164 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/normalize.css" />
-    <link rel="stylesheet" href="style/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" preload />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Open+Sans&family=PT+Sans:ital,wght@0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <title>Blog café</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="contenedor">
-        <div class="barra">
-          <a class="logo" href="index.html">
-            <h1 class="logo__elemento no-margin text-center">
-              Blog<span class="bold">DeCafé</span>
-            </h1>
-          </a>
-          <div class="navegacion">
-            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
-            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/normalize.css" />
+  <link rel="stylesheet" href="style/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" preload />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Open+Sans&family=PT+Sans:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <title>Blog café</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JKRLM91DN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1JKRLM91DN');
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="contenedor">
+      <div class="barra">
+        <a class="logo" href="index.html">
+          <h1 class="logo__elemento no-margin text-center">
+            Blog<span class="bold">DeCafé</span>
+          </h1>
+        </a>
+        <div class="navegacion">
+          <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+          <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+          <a href="contacto.html" class="navegacion__enlace">Contacto</a>
         </div>
       </div>
-      <div class="header__texto">
-        <h2 class="no-margin">Blog de café con consejos y cursos</h2>
-        <p class="no-margin">
-          Aprende de los expertos con las mejores recetas y cursos
-        </p>
-      </div>
-    </header>
-    <main class="contenedor__cursos">
-      <div class="contenedor__titulo">
-        <h3 class="contenedor__nosotros--titulo ">Nuestros Cursos y Talleres</h3>
-      </div>
-      <div class="bloque__cursos">
+    </div>
+    <div class="header__texto">
+      <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+      <p class="no-margin">
+        Aprende de los expertos con las mejores recetas y cursos
+      </p>
+    </div>
+  </header>
+  <main class="contenedor__cursos">
+    <div class="contenedor__titulo">
+      <h3 class="contenedor__nosotros--titulo ">Nuestros Cursos y Talleres</h3>
+    </div>
+    <div class="bloque__cursos">
       <div class="imagen__curso">
         <img loading="lazy" class="imagen__cursos" src="/src/img/curso1.jpg" alt="imagen curso">
       </div>
       <div class="bloque___informacion">
-      <ul class="curso no-padding">
-        <li class="informacion__curso">
-          <h4 class="curso no-margin">
-            Tecnicas de extración de café
-          </h4>
-          <p class="informacion__cursos--label">
-            Precio:
-            <span class="informacion__curso--informacion">Gratis</span>
-          </p>
-          <p class="informacion__cursos--label">
-            Cupos:
-            <span class="informacion__curso--informacion">20</span>
-          </p>
-          <div class="texto">
-            <p class="nosotros__contenido--parrafos">Pellentesque efficitur turpis consequat nulla sagittis,
-                 pulvinar placerat magna consequat. Maecenas sit amet 
-                 convallis augue. Suspendisse felis dui, porttitor sed 
-                 augue quis, consectetur aliquet turpis. Nam eu porta nulla,
-                  a dignissim lorem. Donec luctus, ante vitae luctus aliquet,
-                   dolor tortor hendrerit nisi, ut commodo felis mi quis erat</p>
-          </div>
-        </li>
+        <ul class="curso no-padding">
+          <li class="informacion__curso">
+            <h4 class="curso no-margin">
+              Tecnicas de extración de café
+            </h4>
+            <p class="informacion__cursos--label">
+              Precio:
+              <span class="informacion__curso--informacion">Gratis</span>
+            </p>
+            <p class="informacion__cursos--label">
+              Cupos:
+              <span class="informacion__curso--informacion">20</span>
+            </p>
+            <div class="texto">
+              <p class="nosotros__contenido--parrafos">Pellentesque efficitur turpis consequat nulla sagittis,
+                pulvinar placerat magna consequat. Maecenas sit amet
+                convallis augue. Suspendisse felis dui, porttitor sed
+                augue quis, consectetur aliquet turpis. Nam eu porta nulla,
+                a dignissim lorem. Donec luctus, ante vitae luctus aliquet,
+                dolor tortor hendrerit nisi, ut commodo felis mi quis erat</p>
+            </div>
+          </li>
 
+      </div>
     </div>
- </div>
-  <div class="bloque__cursos">
-  <div class="imagen__curso">
-    <img loading="lazy" class="imagen__cursos" src="/src/img/curso2.jpg" alt="imagen curso">
-  </div>
-  <div class="bloque___informacion">
-  <ul class="curso no-padding">
-    <li class="informacion__curso">
-      <h4 class="curso no-margin">
-       Taller para tostar y moler café
-      </h4>
-      <p class="informacion__cursos--label">
-        Precio:
-        <span class="informacion__curso--informacion">Gratis</span>
-      </p>
-      <p class="informacion__cursos--label">
-        Cupos:
-        <span class="informacion__curso--informacion">20</span>
-      </p>
-      <div class="texto">
-        <p class="nosotros__contenido--parrafos">Pellentesque efficitur turpis consequat nulla sagittis,
-             pulvinar placerat magna consequat. Maecenas sit amet 
-             convallis augue. Suspendisse felis dui, porttitor sed 
-             augue quis, consectetur aliquet turpis. Nam eu porta nulla,
-              a dignissim lorem. Donec luctus, ante vitae luctus aliquet,
-               dolor tortor hendrerit nisi, ut commodo felis mi quis erat</p>
+    <div class="bloque__cursos">
+      <div class="imagen__curso">
+        <img loading="lazy" class="imagen__cursos" src="/src/img/curso2.jpg" alt="imagen curso">
       </div>
-    </li>
+      <div class="bloque___informacion">
+        <ul class="curso no-padding">
+          <li class="informacion__curso">
+            <h4 class="curso no-margin">
+              Taller para tostar y moler café
+            </h4>
+            <p class="informacion__cursos--label">
+              Precio:
+              <span class="informacion__curso--informacion">Gratis</span>
+            </p>
+            <p class="informacion__cursos--label">
+              Cupos:
+              <span class="informacion__curso--informacion">20</span>
+            </p>
+            <div class="texto">
+              <p class="nosotros__contenido--parrafos">Pellentesque efficitur turpis consequat nulla sagittis,
+                pulvinar placerat magna consequat. Maecenas sit amet
+                convallis augue. Suspendisse felis dui, porttitor sed
+                augue quis, consectetur aliquet turpis. Nam eu porta nulla,
+                a dignissim lorem. Donec luctus, ante vitae luctus aliquet,
+                dolor tortor hendrerit nisi, ut commodo felis mi quis erat</p>
+            </div>
+          </li>
 
-</div>
-</div>
-  <div class="bloque__cursos">
-  <div class="imagen__curso">
-    <img loading="lazy" class="imagen__cursos" src="/src/img/curso3.jpg" alt="imagen curso">
-  </div>
-  <div class="bloque___informacion">
-  <ul class="curso no-padding">
-    <li class="informacion__curso">
-      <h4 class="curso no-margin">
-        4 recetas de café para principientes
-      </h4>
-      <p class="informacion__cursos--label">
-        Precio:
-        <span class="informacion__curso--informacion">Gratis</span>
-      </p>
-      <p class="informacion__cursos--label">
-        Cupos:
-        <span class="informacion__curso--informacion">20</span>
-      </p>
-      <div class="textoimg">
-        <p class="nosotros__contenido--parrafos">Pellentesque efficitur turpis consequat nulla sagittis,
-             pulvinar placerat magna consequat. Maecenas sit amet 
-             convallis augue. Suspendisse felis dui, porttitor sed 
-             augue quis, consectetur aliquet turpis. Nam eu porta nulla,
-              a dignissim lorem. Donec luctus, ante vitae luctus aliquet,
-               dolor tortor hendrerit nisi, ut commodo felis mi quis erat</p>
       </div>
-    </li>
+    </div>
+    <div class="bloque__cursos">
+      <div class="imagen__curso">
+        <img loading="lazy" class="imagen__cursos" src="/src/img/curso3.jpg" alt="imagen curso">
+      </div>
+      <div class="bloque___informacion">
+        <ul class="curso no-padding">
+          <li class="informacion__curso">
+            <h4 class="curso no-margin">
+              4 recetas de café para principientes
+            </h4>
+            <p class="informacion__cursos--label">
+              Precio:
+              <span class="informacion__curso--informacion">Gratis</span>
+            </p>
+            <p class="informacion__cursos--label">
+              Cupos:
+              <span class="informacion__curso--informacion">20</span>
+            </p>
+            <div class="textoimg">
+              <p class="nosotros__contenido--parrafos">Pellentesque efficitur turpis consequat nulla sagittis,
+                pulvinar placerat magna consequat. Maecenas sit amet
+                convallis augue. Suspendisse felis dui, porttitor sed
+                augue quis, consectetur aliquet turpis. Nam eu porta nulla,
+                a dignissim lorem. Donec luctus, ante vitae luctus aliquet,
+                dolor tortor hendrerit nisi, ut commodo felis mi quis erat</p>
+            </div>
+          </li>
 
-</div>
-</div>
-    </main>
-    <footer class="footer">
-      <div class="contenedor">
-        <div class="barra">
-          <a class="logo" href="index.html">
-            <h1 class="logo__elemento no-margin text-center">
-              Blog<span class="bold">DeCafe</span>
-            </h1>
-          </a>
-          <div class="navegacion">
-            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
-            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
-          </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="barra">
+        <a class="logo" href="index.html">
+          <h1 class="logo__elemento no-margin text-center">
+            Blog<span class="bold">DeCafe</span>
+          </h1>
+        </a>
+        <div class="navegacion">
+          <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+          <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+          <a href="contacto.html" class="navegacion__enlace">Contacto</a>
         </div>
       </div>
-    </footer>
-    <script src="/src/js/modernizr.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="/src/js/modernizr.js"></script>
+</body>
+
 </html>

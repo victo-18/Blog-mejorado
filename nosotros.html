@@ -13,6 +13,20 @@
       rel="stylesheet"
     />
     <title>Blog café</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1JKRLM91DN"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-1JKRLM91DN");
+    </script>
   </head>
   <body>
     <header class="header">
@@ -34,7 +48,7 @@
         <h2 class="no-margin">Blog de café con consejos y cursos</h2>
         <p class="no-margin">
           Aprende de los expertos con las mejores recetas y cursos
-      </p>
+        </p>
       </div>
     </header>
     <main class="contenedor">
@@ -42,27 +56,31 @@
         <h3 class="contenedor__nosotros--titulo">Sobre Nosotros</h3>
       </div>
       <div class="nosotros__contenido">
-        <img class="entrada__imagen--article" src="/src/img/nosotros.jpg" alt="imagen nosotros" />
+        <img
+          class="entrada__imagen--article"
+          src="/src/img/nosotros.jpg"
+          alt="imagen nosotros"
+        />
         <div class="nosotros__contenido--texto">
-        <p class="nosotros__contenido--parrafos no-margin">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          ullamcorper bibendum magna, eget laoreet ante. Fusce quis ipsum nisl.
-          Duis mollis faucibus erat et commodo. Nullam facilisis aliquet
-          volutpat. Praesent quis leo a libero fermentum ultrices at a lorem.
-          Vivamus et turpis hendrerit, condimentum neque et, tempus leo. Etiam
-          dapibus dictum mi, ac semper odio varius vel. Nulla orci odio,
-          facilisis vel porta vitae, dapibus vel dui.
-        </p>
-        <p class="">
-          Fusce venenatis cursus justo, non pulvinar lacus lobortis sed. Donec
-          sed turpis quis ex maximus sagittis nec at nibh. Donec quis placerat
-          nisi, non blandit dui. Vestibulum id odio sollicitudin, rutrum purus
-          et, fermentum turpis. Morbi eros leo, cursus nec quam vitae, porta
-          finibus lacus. Nulla facilisi. Cras mattis lectus mi, sed lacinia nunc
-          porta id. Pellentesque efficitur turpis consequat nulla sagittis,
-          pulvinar placerat magna consequat.
-        </p>
-    </div>
+          <p class="nosotros__contenido--parrafos no-margin">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            ullamcorper bibendum magna, eget laoreet ante. Fusce quis ipsum
+            nisl. Duis mollis faucibus erat et commodo. Nullam facilisis aliquet
+            volutpat. Praesent quis leo a libero fermentum ultrices at a lorem.
+            Vivamus et turpis hendrerit, condimentum neque et, tempus leo. Etiam
+            dapibus dictum mi, ac semper odio varius vel. Nulla orci odio,
+            facilisis vel porta vitae, dapibus vel dui.
+          </p>
+          <p class="">
+            Fusce venenatis cursus justo, non pulvinar lacus lobortis sed. Donec
+            sed turpis quis ex maximus sagittis nec at nibh. Donec quis placerat
+            nisi, non blandit dui. Vestibulum id odio sollicitudin, rutrum purus
+            et, fermentum turpis. Morbi eros leo, cursus nec quam vitae, porta
+            finibus lacus. Nulla facilisi. Cras mattis lectus mi, sed lacinia
+            nunc porta id. Pellentesque efficitur turpis consequat nulla
+            sagittis, pulvinar placerat magna consequat.
+          </p>
+        </div>
       </div>
     </main>
     <footer class="footer">

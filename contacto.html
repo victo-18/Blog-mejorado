@@ -13,6 +13,15 @@
         href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Open+Sans&family=PT+Sans:ital,wght@0,700;1,400&display=swap"
         rel="stylesheet" />
     <title>Blog café</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JKRLM91DN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1JKRLM91DN');
+    </script>
 </head>
 
 <body>
@@ -44,44 +53,46 @@
         </div>
         <div class="contacto__imagen">
         </div>
-    <form class=" formulario">
-        <div class="campos">
-            <label class="campos__label" for="nombre">Nombre</label>
-            <input class="campos__field" type="text" placeholder="Nombre" id="nombre">
-        </div>
-        <div class="campos">
-            <label class="campos__label"  for="email">Email</label>
-            <input class="campos__field" type="email" placeholder="email" id="email">
-        </div>
-        <div class="campos">
-            <label class="campos__label" for="telefono">Telefono</label>
-            <input class="campos__field" type="number" placeholder="Telefono" id="telefono">
-        </div>
-        <div class="campos">
-            <label class="campos__label" for="mensaje">Mensaje</label>
-            <textarea class=" campos__field campos__field--textarea" name="mensaje" id="mensaje" placeholder="Mensaje" ></textarea>
-        </div>
-        <div class="boton">
-        <input  class="boton"type="submit" value="Enviar">
-        </div>
-   </form>
+        <form class=" formulario">
+            <div class="campos">
+                <label class="campos__label" for="nombre">Nombre</label>
+                <input class="campos__field" type="text" placeholder="Nombre" id="nombre">
+            </div>
+            <div class="campos">
+                <label class="campos__label" for="email">Email</label>
+                <input class="campos__field" type="email" placeholder="email" id="email">
+            </div>
+            <div class="campos">
+                <label class="campos__label" for="telefono">Telefono</label>
+                <input class="campos__field" type="number" placeholder="Telefono" id="telefono">
+            </div>
+            <div class="campos">
+                <label class="campos__label" for="mensaje">Mensaje</label>
+                <textarea class=" campos__field campos__field--textarea" name="mensaje" id="mensaje"
+                    placeholder="Mensaje"></textarea>
+            </div>
+            <div class="boton">
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+        </form>
     </main>
     <footer class="footer">
-      <div class="contenedor">
-        <div class="barra">
-          <a class="logo" href="index.html">
-            <h1 class="logo__elemento no-margin text-center">
-              Blog<span class="bold">DeCafe</span>
-            </h1>
-          </a>
-          <div class="navegacion">
-            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
-            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
-          </div>
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__elemento no-margin text-center">
+                        Blog<span class="bold">DeCafe</span>
+                    </h1>
+                </a>
+                <div class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
     <script src="/src/js/modernizr.js"></script>
-  </body>
+</body>
+
 </html>
