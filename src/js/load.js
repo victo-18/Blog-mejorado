@@ -6,7 +6,7 @@ window.addEventListener('load',function(){
         carga.remove();
         //elimicaClase();
         body.classList.remove('loader')
-    });
+    },3000);
    
 });
  //function elimicaClase(){
