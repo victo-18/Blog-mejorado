@@ -1,3 +1,4 @@
+
 const nombre = document.querySelector('#nombre');
 const email = document.querySelector('#email');
 const telefono = document.querySelector('#telefono');
@@ -14,23 +15,6 @@ datos = {
     mensaje: ""
 }
 formulario.addEventListener('submit',validarDatos);
-
-f/*ormulario.addEventListener('submit',(e)=>{
-e.preventDefault();
-const{nombre,email,telefono,mensaje}=datos;
-if(nombre===''){
-error('El campo nombre esta incompleto');
-}if(email===''){
-    error('El campo email esta incorrecto');
-}if(telefono===''){
-    error('El campo telefono esta incorrecto');
-}if(mensaje===''){
-    error('El campo mensaje esta incorrecto');
-    return;
-}
-datosCorrectos('Los datos estan correctos');
-});*/
-
 function validarDatos(evento){
     evento.preventDefault();
     const{nombre,email,telefono,mensaje}=datos;
@@ -45,10 +29,15 @@ function leerDatos(e) {
 }
 
 function error(mensaje){
+    //creando componente
 const error = document.createElement('P');
+//agregar texto del mensaje
 error.textContent=mensaje;
+//agregar clase css
 error.classList.add('error');
+//incorporarlo al formulario
 formulario.appendChild(error);
+//tiempo de visualizacion
 setTimeout(()=>{
     error.remove();
 },4000);
